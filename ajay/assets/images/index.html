@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            background-color: rgb(173, 128, 128);
+        }
+            .main{
+                text-align: center;
+               
+            }
+            .heading{
+                background-image: linear-gradient(rgba(255, 0, 0, 0), black);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                font-size: 130px;
+            }
+                        
+        .calculator{
+            height: auto;
+            width: 600px;
+            background-color:rgba(212, 255, 249, 0.89);
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            padding: 20px;
+            margin: auto;
+            row-gap: 10px;
+            column-gap: 10px;
+
+        }
+        .item{
+            background-color: rgba(80, 233, 10, 0.205);
+            height: 100px;
+            /* width: 100px; */
+            backdrop-filter: calc(\5);
+        }
+        button{
+            cursor: pointer;
+            color:red;
+            font-size:xx-large;
+            symbols: AC color: red;
+            
+            
+            
+        }
+
+        button:hover{
+            background-color: red;
+            transition: .3s;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: rgb(204, 198, 198);
+            text-size-adjust: 79px;
+            text-decoration-color: rgb(250, 252, 255);
+            
+            text-align: center;
+        }
+
+        input[type=text]
+        {
+            text-align: center;
+            height: 80px;
+            width: 80%;
+            font-size: 80px;
+            border-start-end-radius: 10px;
+            border-end-start-radius: 10px;
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading"> SAMPLE</h1>
+    </div>
+    <div class="calculator">
+        <div class="item item1"> <input type="text" placeholder="AJAY..... "></div>
+        <button class="item" color="yellow">AC</button>
+        <button class="item">%</button>
+        <button class="item">*</button>
+        <button class="item">/</button>
+        <button class="item">7</button>
+        <button class="item">8</button>
+        <button class="item">9</button>
+        <button class="item">*</button>
+        <button class="item">4</button>
+        <button class="item">5</button>
+        <button class="item">6</button>
+        <button class="item">-</button>
+        <button class="item">1</button>
+        <button class="item">2</button>
+        <button class="item">3</button>
+        <button class="item">+</button>
+        <button class="item">00</button>
+        <button class="item">0</button>
+        <button class="item">.</button>
+        <button class="item">=</button>
+        
+
+
+
+        
+    </div>
+</body>
+</html>
